@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-<script src="https://gist.github.com/wva-autom8s/4785cc862229a8d592fdf86e4e9f3b5c.js"></script>
+{% gist 4785cc862229a8d592fdf86e4e9f3b5c %}
 
 You can use the [editor on GitHub](https://github.com/wva-autom8s/modular/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
