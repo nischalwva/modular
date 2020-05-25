@@ -8,6 +8,9 @@ body, html {
 
 #header-section, #one-column-section, #two-column-section, #three-column-section, #footer-section {padding:20px 0;}
 
+.box {background:#ffffff; padding:25px;}
+.box-fluid {background:#ffffff;}
+
         /*---------------Modular Template v3.4-----------------*/
         /* Last updated on 22/04/2020 */
         

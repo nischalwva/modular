@@ -49,10 +49,59 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#header-section">Navigation</a></li>
-            <li><a href="#one-column-section">One Column</a></li>
-            <li><a href="#two-column-section">Two Column</a></li>
-            <li><a href="#three-column-section">Three Column</a></li>
-            <li><a href="#footer-section">Footer</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Single Column <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#single-column-section">Home</a></li>
+                <li><a href="#hero-image">Hero Image</a></li>
+                <li><a href="#single-col-landscape-article">Landscape Article</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Jumbotron</li>
+                <li><a href="#single-col-jumbotron-button">Button</a></li>
+                <li><a href="#single-col-jumbotron-textlink">Textlink</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#two-column-section" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Two Column <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#hero">Hero Image</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#three-column-section" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Three Column <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#hero">Hero Image</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#footer-section" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Footer <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#hero">Footer 1 - Transactional</a></li>
+                <li><a href="#">Footer 2 - Operational</a></li>
+                <li><a href="#">Footer 3 - Static</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Others</li>
+                <li><a href="#">External</a></li>
+                <li><a href="#">Outlook Template</a></li>
+              </ul>
+            </li>
+           
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -73,16 +122,11 @@
                 </tr>
             </table>
             <!--END Navigation -->
-            <div id="one-column-section"></div>
+            <div id="single-column-section"></div>
             <!-- BEGIN Hero Image -->
-            <table class="main" cellpadding="0" cellspacing="0" style="width:630px;margin:0 auto;text-align:center;">
-                <tr>
-                    <!-- Edit border colour here -->
-                    <td style="text-align:center;vertical-align:top;">
-                        <a href="https://wva.nischaltiwari.com/docs/hero-image/" target="_blank"><img class="scale-up fadeImg" style="vertical-align:top;border:none;" src="https://via.placeholder.com/630x300" width="630" alt=""></a>
-                    </td>
-                </tr>
-            </table>
+            <div class="box-fluid" id="hero-image">
+                <a href="https://wva.nischaltiwari.com/docs/hero-image/" target="_blank"><img src="images/mt-hero-image-desktop.png" alt="" class="img-responsive"></a>
+            </div>
             <!-- END Hero Image -->
             <!-- BEGIN Heading -->
             <table class="main" cellpadding="0" cellspacing="0" style="width:630px;margin:0 auto;text-align:center;">
@@ -190,117 +234,24 @@
             </table>
             <!-- END Double CTA -->
             <div style="line-height:20px;">&nbsp;</div>
-            <!-- BEGIN Full width landscape article -->
-            <table class="main" cellpadding="0" cellspacing="0" style="width:630px;margin:0 auto;text-align:center;">
-                <tr>
-                    <td class="pad-v-40" bgcolor="#ffffff" style="padding:30px 25px">
-                        <table width="100%" cellpadding="0" cellspacing="0">
-                            <tr>
-                                <!-- Edit headline here -->
-                                <td class="text pad h1" style="text-align:center;vertical-align:top;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:24px;font-weight: bold; color:#000000; padding-bottom: 20px">Support those fleeing violence in Myanmar </td>
-                            </tr>
-                            <tr>
-                                <!-- Change image here -->
-                                <td valign="middle" class="wrap width-full mobile" style="mso-hide:all;text-align: center; vertical-align: middle;">
-                                    <a href="#link"><img class="scale-up" style="display: block; vertical-align:top;border:none;" src="https://placehold.it/550x260/999/fff" width="100%" alt=""></a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <!-- Edit body copy here -->
-                                <td class="text pad" style="text-align:left;vertical-align:top;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:16px;mso-line-height-rule:exactly;line-height:19px; font-weight: normal; color:#000000;padding:20px 0;">In the last month alone, more than 480,000 people, including children, have fled conflict in Myanmar's Rakhine State to seek refuge in south-eastern Bangladesh. These refugees – most of whom identify as Rohingya – join more than 200,000 others already seeking refuge there. You can help meet the needs of desperate children and families by supporting deliveries of life-saving food aid. </td>
-                            </tr>
-                            <tr>
-                                <td align="center" class="pad">
-                                    <table cellpadding="0" cellspacing="0" border="0" class="width-full">
-                                        <tr>
-                                            <td class="wrap width-full">
-                                                <table cellpadding="0" cellspacing="0" border="0" class="width-full">
-                                                    <tr>
-                                                        <!-- Edit CTA copy here -->
-                                                        <td class="width-full cta" style="background:#FF6600;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:17px;font-weight:bold;text-align:center;mso-padding-alt:10px 25px; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;"><a style="display:block;padding:10px 25px;text-decoration:none;color:#fff;" href="#link" target="_blank">Donate now</a></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td class="wrap width-full" style="width:30px; height:20px">
-                                                <!-- -->
-                                            </td>
-                                            <td class="wrap width-full" style="height:45px">
-                                                <table cellpadding="0" cellspacing="0" border="0" class="width-full">
-                                                    <tr>
-                                                        <!-- Edit CTA copy here -->
-                                                        <td class="width-full cta" style="border: 2px solid #FF6600;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:17px;font-weight:bold;text-align:center;mso-padding-alt:8px 25px; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; "><a style="display:block;padding:8px 25px;text-decoration:none;color:#FF6600;" href="#link" target="_blank">Learn more </a></td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-            <!-- END Full width landscape article -->
+            <!-- BEGIN Landscape article -->
+            <div class="box-fluid" id="single-col-landscape-article">
+                <a href="https://wva.nischaltiwari.com/docs/single-column-landscape-article/" target="_blank"><img src="images/mt-landscape-article.png" alt="Landscape article" class="img-responsive"></a>
+            </div>
+            <!-- END Landscape article -->
             <div style="line-height:20px;">&nbsp;</div>
-            <!-- BEGIN Single column callout with CTA -->
-            <table class="main" cellpadding="0" cellspacing="0" style="width:630px;margin:0 auto;text-align:center;">
-                <tbody>
-                    <tr>
-                        <!-- Change bgcolor here -->
-                        <td class="pad" bgcolor="#ff6600" style="padding:30px 25px">
-                            <table width="100%" cellpadding="0" cellspacing="0">
-                                <tbody>
-                                    <tr>
-                                        <!-- Edit copy here -->
-                                        <td class="wrap width-full mob-center" style="text-align:center;vertical-align:middle;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:16px;mso-line-height-rule:exactly;line-height:19px; font-weight: bold; color:#ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-                                            <!-- BEGIN Single CTA with dark module-->
-                                            <br>
-                                            <br>
-                                            <div align="center">
-                                                <table cellpadding="0" cellspacing="0" style="text-align: center">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td align="center" style="text-align: center; padding:0px 0">
-                                                                <table cellpadding="0" cellspacing="0" border="0" class="width-full">
-                                                                    <tbody>
-                                                                        <tr>
-                                                                            <!-- Edit CTA copy here -->
-                                                                            <td class="width-full cta" style="background-color: #ffffff; font-family: 'Lato', Helvetica, Arial, sans-serif;font-size:17px;font-weight:bold;text-align:center;mso-padding-alt:10px 30px;  border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;"><a style="display:block;padding:10px 30px;text-decoration:none;color:#ff6600;" href="#link" target="_blank">Button</a></td>
-                                                                        </tr>
-                                                                    </tbody>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                            <!-- END Single CTA with dark module-->
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <!-- END Single column callout with CTA-->
+            <!-- BEGIN Single column Jumbotron with Button -->
+            <div class="box-fluid" id="single-col-jumbotron-button">
+                <a href="https://wva.nischaltiwari.com/docs/single-column-jumbotron/" target="_blank"><img src="images/mt-single-column-jumbotron-button.png" alt="Single Col Jumbotron" class="img-responsive"></a>
+            </div>
+            <!-- END Single column Jumbotron with Button-->
             <div style="line-height:20px;">&nbsp;</div>
-            <!-- BEGIN Single column callout with text link -->
-            <table class="main" cellpadding="0" cellspacing="0" style="width:630px;margin:0 auto;text-align:center;">
-                <tr>
-                    <td class="pad-2" bgcolor="#F1F2F2" style="padding:30px 25px">
-                        <table width="100%" cellpadding="0" cellspacing="0">
-                            <tr>
-                                <!-- Edit copy here -->
-                                <td class="text" style="text-align:center;vertical-align:top;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:16px;mso-line-height-rule:exactly;line-height:19px; font-weight: bold; color:#000000;padding:20px 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua <a href="#link" style="color: #FF6600; text-decoration: none">click here.</a></td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-            <!-- END Single column callout with text link -->
+            <!-- BEGIN Single column Jumbotron with Button -->
+            <div class="box-fluid" id="single-col-jumbotron-textlink">
+                <a href="https://wva.nischaltiwari.com/docs/single-column-jumbotron/" target="_blank"><img src="images/mt-single-column-jumbotron-textlink.png" alt="Single Col Jumbotron" class="img-responsive"></a>
+            </div>
             <div style="line-height:20px;">&nbsp;</div>
+            <div id="two-column-section"></div>
             <!-- START Icon callout -->
             <table class="main" cellpadding="0" cellspacing="0" style="width:630px;margin:0 auto;text-align:center;">
                 <tr>
@@ -358,7 +309,6 @@
             </table>
             <!-- END Icon callout alternate-->
             <div style="line-height:20px;">&nbsp;</div>
-            <div id="two-column-section"></div>
             <!-- BEGIN Feature article  -->
             <table class="main" cellpadding="0" cellspacing="0" style="width:630px;margin:0 auto;text-align:center;">
                 <tr>
@@ -750,91 +700,9 @@
             <!-- END Two-column Background -->
             <div style="line-height:20px;">&nbsp;</div>
             <!-- BEGIN Two-column caption -->
-            <table class="main" cellpadding="0" cellspacing="0" style="width:630px;margin:0 auto;text-align:center;">
-                <tbody>
-                    <tr>
-                        <td class="pad" bgcolor="#ffffff" style="text-align:center;vertical-align:top;padding:40px 25px;">
-                            <table cellpadding="0" cellspacing="0" style="width:100%;">
-                                <tbody>
-                                    <tr>
-                                        <!-- BEGIN Product 1 -->
-                                        <td class="wrap width-full" style="text-align:center;vertical-align:top;font-weight:normal;width:255px;">
-                                            <table width="100%" cellpadding="0" cellspacing="0">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <table>
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <!-- Change image here -->
-                                                                        <td class="width-50pc"><img class="scale-up" style="vertical-align:top;border:none;" src="https://placehold.it/270" width="270" alt=""></td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <table width="100%" cellpadding="0" cellspacing="0">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td style="text-align:left;vertical-align:top;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:14px;mso-line-height-rule:exactly;line-height:19px; font-weight: normal; color:#000000;">
-                                                                            <br class="desk"> Sponsored children in Burundi love to hear from their sponsors
-                                                                            <br>
-                                                                            <br>
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                        <!-- END Product 1 -->
-                                        <td class="wrap" style="width:30px;height:20px;" height="20">&nbsp;</td>
-                                        <!-- BEGIN Product 2 -->
-                                        <td class="wrap width-full" style="text-align:center;vertical-align:top;font-weight:normal;width:255px;">
-                                            <table width="100%" cellpadding="0" cellspacing="0">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <table>
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <!-- Change image here -->
-                                                                        <td class="width-50pc"><img class="scale-up" style="vertical-align:top;border:none;" src="https://placehold.it/270" width="270" alt=""></td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <table width="100%" cellpadding="0" cellspacing="0">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td class="" style="text-align:left;vertical-align:top;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:14px;mso-line-height-rule:exactly;line-height:19px; font-weight: normal; color:#000000; ">
-                                                                            <br class="desk"> Receiving gifts from their sponsors is an incredibly exciting moment for children in Bangladesh
-                                                                            <br>
-                                                                            <br>
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                        <!-- END Product 2 -->
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="box-fluid">
+                <a href="https://wva.nischaltiwari.com/docs/two-column-image-description/" target="_blank"><img src="images/mt-two-column-image-description.png" alt="Two Column Image description" class="img-responsive"></a>
+            </div>
             <!-- END Two-column caption -->
             <div style="line-height:20px;">&nbsp;</div>
             <!-- BEGIN Two-column with Bullet points -->
@@ -1118,38 +986,9 @@
             <!-- END Reinforcement messaging  - New 2020-->
             <div style="line-height:20px;">&nbsp;</div>
             <!-- BEGIN Two-column with border left -->
-            <table class="main" cellpadding="0" cellspacing="0" style="width:630px;margin:0 auto;text-align:center;">
-                <tbody>
-                    <tr>
-                        <td class="wrap pad" bgcolor="#FFFFFF" style="padding:25px 25px">
-                            <table width="100%" cellpadding="0" cellspacing="0">
-                                <tbody>
-                                    <tr>
-                                        <!-- Edit copy here -->
-                                        <td class="full-width" bgcolor="#F4F4F4" style="border-left:6px solid #ff6600; text-align:left;vertical-align:top;font-family:'Lato', Helvetica, Arial, sans-serif;mso-line-height-rule:exactly;line-height:24px; font-weight:bold; color:#000000;padding:20px 15px">
-                                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                                                <tbody>
-                                                    <tr>
-                                                        <!-- Change DESKTOP copy here -->
-                                                        <td class="desk" style="text-align:left;vertical-align:top;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:16px;mso-line-height-rule:exactly;line-height:20px; font-weight: bold; color:#000000;  width:170px;  ">Highlighted heading goes here</td>
-                                                        <!-- Change MOBILE copy here -->
-                                                        <!--[if !mso]><!-->
-                                                        <td valign="middle" class="mob" style="mso-hide:all;font-family:'Lato', Helvetica, Arial, sans-serif;text-align: left;  font-weight:bold;vertical-align: middle; font-size:16px; line-height: 20px;">1.2 million people received cash vouchers</td>
-                                                        <!--<![endif]-->
-                                                        <td class="wrap width-full desk" style="width:20px; height: 20px">&nbsp;</td>
-                                                        <td class="pad-none wrap width-full" style="text-align:left;vertical-align:top;font-family:'Lato', Helvetica, Arial, sans-serif;font-size:16px;mso-line-height-rule:exactly;line-height:20px; font-weight: normal; color:#000000; ">
-                                                            <!-- Edit copy here -->Empowering families in crisis to buy food for themselves when its available in the local market. </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="box">
+                <a href="https://wva.nischaltiwari.com/docs/two-column-border-left/" target="_blank"><img src="images/mt-two-column-border-left.png" alt="Two Column Border-Left" class="img-responsive"></a>
+            </div>
             <!-- END Two-column with border left-->
             <div style="line-height:20px">&nbsp;</div>
             <!-- BEGIN Two-column with icon -->
